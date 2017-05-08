@@ -1,0 +1,30 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.hero-wrapper {
+  position: relative; /* Important: wrapper position must set to relative as child absolute positioned */
+  overflow: hidden; /* Important: To hide overflow content when scrolling */
+  height: 80vh; /* Set desire height of your hero */
+}
+.hero {
+  /* Background image init */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Below attribute is neccessary */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%; /* Height is 100% based on parent height */
+  width: 100%; /* To ensure it fill width */
+}
+section {
+  width: 900px;
+  margin: 0 auto;
+  color: #222;
+  background-color: #FFF;
+  padding: 20px;
+}
