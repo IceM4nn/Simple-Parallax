@@ -1,6 +1,6 @@
 # Simple Parallax
 
-A very simple (and thin) jQuery plugin to create nice parallax on web hero image by manipulating `.scroll()` and CSS `top`.
+A very simple (and thin) jQuery plugin to create nice parallax on web hero image by manipulating `.scroll()` and CSS `top`. Check out [demo](https://icem4nn.github.io/Simple-Parallax/)!
 
 ## Getting started
 1. Include jQuery and `js/parallax.js` on your web document.
